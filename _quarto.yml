@@ -13,7 +13,7 @@ website:
   page-footer: 
     left: 
       - text: "LICENÇA CC-BY-NC-SA"
-        href: license.qmd
+        href: licenca.qmd
     right:
       - text: Desenvolvido com Quarto
         href: https://quarto.org/

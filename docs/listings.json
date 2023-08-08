@@ -2,8 +2,22 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/posts/provas-antigas-ga/provas-antigas.html",
+      "/posts/trabalhos-antigos-ga/trabalhos-antigos.html",
+      "/posts/trabalhos-antigos-probest/trabalhos-antigos.html"
+    ]
+  },
+  {
+    "listing": "/ga.html",
+    "items": [
+      "/posts/provas-antigas-ga/provas-antigas.html",
+      "/posts/trabalhos-antigos-ga/trabalhos-antigos.html"
+    ]
+  },
+  {
+    "listing": "/probest.html",
+    "items": [
+      "/posts/trabalhos-antigos-probest/trabalhos-antigos.html"
     ]
   }
 ]

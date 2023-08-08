@@ -30,10 +30,10 @@ website:
       - href: index.qmd
         text: Posts
         aria-label: Posts
-      - href: GA.qmd
+      - href: ga.qmd
         text: GA
         aria-label: GA
-      - href: ProbEst.qmd
+      - href: probest.qmd
         text: ProbEst
         aria-label: Probabililidade e Estatística
       - href: pubs.qmd

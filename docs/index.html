@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>fnaufel (RCN, UFF) - Posts</title>
+<title>fnaufel (RCN, UFF) - Todas as postagens</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -73,9 +73,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -124,11 +124,11 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./GA.qmd" rel="" target="">
+    <a class="nav-link" href="./ga.html" rel="" target="">
  <span class="menu-text">GA</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./ProbEst.qmd" rel="" target="">
+    <a class="nav-link" href="./probest.html" rel="" target="">
  <span class="menu-text">ProbEst</span></a>
   </li>  
   <li class="nav-item">
@@ -166,7 +166,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page-left">
-      <h1 class="title">Posts</h1>
+      <h1 class="title">Todas as postagens</h1>
                       </div>
   </div>
     
@@ -184,7 +184,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Tudo <span class="quarto-category-count">(2)</span></div><div class="category" data-category="analysis">analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="code">code <span class="quarto-category-count">(1)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Tudo <span class="quarto-category-count">(3)</span></div><div class="category" data-category="ga">ga <span class="quarto-category-count">(2)</span></div><div class="category" data-category="probest">probest <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -195,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
@@ -221,82 +221,96 @@ ul.task-list li input[type="checkbox"] {
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="news,code,analysis" data-listing-date-sort="1691377200000" data-listing-file-modified-sort="1691425364021" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/post-with-code/index.html"> <img src="./posts/post-with-code/image.jpg" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/post-with-code/index.html">
-<h3 class="no-anchor listing-title">
-Post With Code
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="ga" data-listing-date-sort="1691463600000" data-listing-file-modified-sort="1691518108485" data-listing-date-modified-sort="1691463600000" data-listing-reading-time-sort="1">
+<a href="./posts/provas-antigas-ga/provas-antigas.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/provas-antigas-ga/20230808_256x256_image.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Provas de períodos anteriores
+</h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('code'); return false;">
-code
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
-analysis
+<div class="listing-category" onclick="window.quartoListingCategory('ga'); return false;">
+ga
 </div>
 </div>
-<a href="./posts/post-with-code/index.html">
-<div class="listing-description">
-This is a post with executable code.
+<div class="card-text listing-description">
+Algumas com gabarito
 </div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/post-with-code/index.html">
-<div class="listing-date">
-7 de ago. de 2023
-</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
-Harlow Malloc
+fnaufel
+</div>
+<div class="listing-date">
+08/08/2023
+</div>
+</div>
+</div>
 </div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="news" data-listing-date-sort="1691118000000" data-listing-file-modified-sort="1691425364017" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/welcome/index.html"> <p class="card-img-top"><img src="posts/welcome/thumbnail.jpg"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./posts/welcome/index.html">
-<h3 class="no-anchor listing-title">
-Welcome To My Blog
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
+<div class="g-col-1" data-index="1" data-categories="ga" data-listing-date-sort="1691463600000" data-listing-file-modified-sort="1691522792072" data-listing-date-modified-sort="1691463600000" data-listing-reading-time-sort="1">
+<a href="./posts/trabalhos-antigos-ga/trabalhos-antigos.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/trabalhos-antigos-ga/20230808_256x256_image_2.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Trabalhos de períodos anteriores
+</h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
+<div class="listing-category" onclick="window.quartoListingCategory('ga'); return false;">
+ga
 </div>
 </div>
-<a href="./posts/welcome/index.html">
-<div class="listing-description">
-This is the first post in a Quarto blog. Welcome!
+<div class="card-text listing-description">
+Tarefas online e respostas
 </div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/index.html">
-<div class="listing-date">
-4 de ago. de 2023
-</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
-Tristan O’Malley
+fnaufel
+</div>
+<div class="listing-date">
+08/08/2023
+</div>
+</div>
+</div>
 </div>
 </a>
 </div>
+<div class="g-col-1" data-index="2" data-categories="probest" data-listing-date-sort="1691463600000" data-listing-file-modified-sort="1691522544137" data-listing-date-modified-sort="1691463600000" data-listing-reading-time-sort="1">
+<a href="./posts/trabalhos-antigos-probest/trabalhos-antigos.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/trabalhos-antigos-probest/20230808_256x256_image_2.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Trabalhos de períodos anteriores
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('probest'); return false;">
+probest
+</div>
+</div>
+<div class="card-text listing-description">
+Tarefas online e respostas
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+fnaufel
+</div>
+<div class="listing-date">
+08/08/2023
+</div>
+</div>
+</div>
+</div>
+</a>
 </div>
 </div>
 <div class="listing-no-matching d-none">
